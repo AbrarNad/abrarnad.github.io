@@ -2,96 +2,118 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Khandaker Abrar Nadib
+    - name: Role
+      value: 2nd Year PhD Student, Computer Science, University of Utah
+    - name: Location
+      value: Salt Lake City, Utah
+    - name: Email
+      value: abrar.nadib@gmail.com
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Doctor of Philosophy, Computer Science
+      institution: University of Utah
+      year: 2024 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Second-year PhD student at the Kahlert School of Computing.
+    - title: Bachelor of Science, Computer Science and Engineering
+      institution: Bangladesh University of Engineering and Technology (BUET)
+      year: 2017 - 2022
       description:
-        - Description 1.
-        - Description 2.
+        - GPA 3.50/4.00; last two semesters 3.82/4.00; major GPA 3.68/4.00.
+    - title: Higher Secondary Certificate
+      institution: Govt. Rajendra College, Faridpur
+      year: 2016
+      description:
+        - GPA 5.00/5.00.
 
-- title: Experience
+- title: Research Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: News Credibility Analysis on Facebook using User Interaction Data
+      institution: Visualization Design Lab & KORE Lab, University of Utah
+      year: 2021 - 2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Focused on detecting fake Bengali-language news with interaction-based machine learning models resilient to adversarial content.
+        - Explored user reactions to classify public Facebook posts; XGBoost produced the best outputs among supervised approaches.
+        - Tech stack included scikit-learn, pandas, and matplotlib.
+    - title: Heuristic Analysis of bKash
+      institution: Bangladesh University of Engineering and Technology
+      year: 2021
       description:
-        - Description 1.
-        - Description 2.
+        - Interviewed users to identify usability issues in the bKash mobile financial application and ranked their severity.
+        - Produced recommendations to enhance accessibility and multimodality based on heuristic analysis findings.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Work Experience
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Graduate Research Fellow
+      institution: Scientific Computing and Imaging Institute (SCI)
+      year: August 2024 - Present
+    - title: Software Engineer II — Digital Asset Management Team
+      institution: Optimizely
+      year: January 2024 - July 2024
+      description:
+        - Digital Asset Management Team.
+        - Technologies: Python, Flask, JavaScript, TypeScript, React.js, MySQL, MongoDB, Alembic, Celery, Elasticsearch.
+    - title: Software Engineer I — Digital Asset Management Team
+      institution: Optimizely
+      year: November 2022 - December 2023
+      description:
+        - Implemented Brand Template features including download, export, access, and task integration.
+        - Implementing searching, filtering, and navigation in DAM collection folders.
+        - Implemented various user activity tracking for analytics.
+        - Implemented various asset features like meta information, relations, bulk operation improvements, and GPT-3.5-turbo model integration to generate smart content.
+        - Handled user roles and privileges for various features.
+        - Made improvements to several backend and UI components in terms of performance, and code quality.
+        - Technologies: Python, Flask, JavaScript, TypeScript, React.js, MySQL, MongoDB, Alembic, Celery, Elasticsearch.
+    - title: Software Engineering Intern — Asset Renditions Team
+      institution: Optimizely
+      year: May 2022 - October 2022
+      description:
+        - Worked on implementing and maintaining a feature Asset Rendition.
+        - Built three services to generate asset renditions using the given specifications.
+        - Implemented stateless generators to scale horizontally and integrated asynchronous messaging for decoupling and scaling.
+        - Integrated the Rendition Service with the local development environment for developers.
+        - Implemented logging schemes to enable debugging by combining multiple services.
+        - Technologies: Python, FastAPI, MySQL, PostgreSQL, Docker, Kubernetes, Message Queue.
+
+- title: Skills
+  type: nested_list
+  contents:
+    - title: Research Methods
+      items:
+        - Data Scraping; Surveying; Interviewing
+    - title: Programming Languages
+      items:
+        - JavaScript; Python; Java; C/C++; SQL
+    - title: Tools
+      items:
+        - Git; Docker; Jupyter Notebook; Postman; Wireshark
+    - title: Databases
+      items:
+        - MySQL; Oracle; MongoDB; PostgreSQL
+    - title: Frameworks
+      items:
+        - Flask; React.js; Node.js; Typescript; FastAPI; Bootstrap
+    - title: Libraries
+      items:
+        - Pandas; NumPy; Matplotlib; Scikit-learn
+    - title: Scripting / Markup / Serialization
+      items:
+        - Bash; TCL; LaTeX; YAML; JSON
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2023
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+        - Optimizely SPOT Award — October 2023
+        - Optimizely SPOT Award — July 2023
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Traveling; films; competitive FPS gaming; arts; embracing diverse cultures.
