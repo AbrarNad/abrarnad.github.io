@@ -4,7 +4,7 @@
     "label": "PhD Student, Computer Science",
     "email": "abrar.nadib@gmail.com",
     "url": "https://abrarnad.github.io",
-    "summary": "Second-year PhD student at the University of Utah (Visualization Design Lab & KORE Lab) focusing on visualization, HCI, and data-driven misinformation. Former full-stack engineer with three years of industry experience.",
+    "summary": "Second-year PhD student at the University of Utah (VDL & KORE Lab) focusing on visualization, HCI, and human-centered data science—improving chart comprehension and decision-making through better visualization and storytelling systems. Former full-stack engineer with three years of industry experience.",
     "location": {
       "city": "Salt Lake City",
       "region": "Utah",
@@ -30,35 +30,28 @@
   },
   "work": [
     {
-      "name": "Scientific Computing and Imaging Institute (SCI), University of Utah",
+      "name": "Visualization Design Lab & KORE Lab, University of Utah",
+      "position": "Graduate Research Assistant",
+      "startDate": "2025-01-01",
+      "summary": ""
+    },
+    {
+      "name": "Visualization Design Lab & KORE Lab, University of Utah",
       "position": "Graduate Research Fellow",
       "startDate": "2024-08-01",
-      "summary": "",
-      "highlights": []
+      "endDate": "2025-12-31",
+      "summary": ""
     },
     {
       "name": "Optimizely",
-      "position": "Software Engineer II — Digital Asset Management Team",
-      "startDate": "2024-01-01",
-      "endDate": "2024-07-31",
-      "summary": "Worked across Python/Flask and JS/TS/React in the DAM product.",
-      "highlights": [
-        "Digital Asset Management Team.",
-        "Technologies: Python, Flask, JavaScript, TypeScript, React.js, MySQL, MongoDB, Alembic, Celery, Elasticsearch."
-      ]
-    },
-    {
-      "name": "Optimizely",
-      "position": "Software Engineer I — Digital Asset Management Team",
+      "position": "Software Engineer — Digital Asset Management Team",
       "startDate": "2022-11-01",
-      "endDate": "2023-12-31",
+      "endDate": "2024-07-31",
       "summary": "Built user-facing features and backend improvements for the DAM platform.",
       "highlights": [
-        "Implemented Brand Template features including download, export, access, and task integration.",
-        "Implemented searching, filtering, and navigation in DAM collection folders; added user activity tracking for analytics.",
-        "Built asset features (meta information, relations, bulk operations) and GPT-3.5-turbo integration for smart content.",
-        "Handled roles/privileges; performance and code quality improvements across backend and UI.",
-        "Technologies: Python, Flask, JavaScript, TypeScript, React.js, MySQL, MongoDB, Alembic, Celery, Elasticsearch."
+        "Brand Templates (download/export/cloning/task integration); DAM collection search/filter/navigation with breadcrumbs.",
+        "Asset meta information, relations, bulk ops, GPT-3.5-turbo integration; user activity tracking; accessibility/performance/code-quality improvements.",
+        "Tech: Python, Flask, JavaScript, TypeScript, React.js, MySQL, MongoDB, Alembic, Celery, Elasticsearch."
       ]
     },
     {
@@ -68,9 +61,8 @@
       "endDate": "2022-10-31",
       "summary": "Developed rendition services and tooling for asset pipelines.",
       "highlights": [
-        "Implemented and maintained the Asset Rendition feature with three rendition generators.",
-        "Built stateless generators and asynchronous messaging for scale; integrated local dev tooling.",
-        "Implemented logging schemes across services; Technologies: Python, FastAPI, MySQL, PostgreSQL, Docker, Kubernetes, Message Queue."
+        "Implemented and maintained Asset Rendition with three rendition generators (image/video), stateless scaling, and async messaging.",
+        "Integrated logging and local dev tooling; Tech: Python, FastAPI, MySQL, PostgreSQL, Docker, Kubernetes, Message Queue."
       ]
     }
   ],
@@ -101,6 +93,12 @@
   ],
   "awards": [
     {
+      "title": "Best Paper Award, IEEE VIS 2025",
+      "date": "2025-10-01",
+      "awarder": "IEEE VIS",
+      "summary": "ReVISit 2: A Full Experiment Life Cycle User Study Framework."
+    },
+    {
       "title": "Optimizely SPOT Award",
       "date": "2023-10-01",
       "awarder": "Optimizely",
@@ -111,9 +109,22 @@
       "date": "2023-07-01",
       "awarder": "Optimizely",
       "summary": "Recognition for resolving challenging problems and performance."
+    },
+    {
+      "title": "Board Merit Scholarships (SSC & HSC)",
+      "date": "2016-01-01",
+      "awarder": "Dhaka Board",
+      "summary": "Ranked 6th (male) in Dhaka Board in HSC."
     }
   ],
   "publications": [
+    {
+      "name": "ReVISit 2: A Full Experiment Life Cycle User Study Framework",
+      "publisher": "IEEE TVCG (Proceedings of IEEE VIS)",
+      "releaseDate": "2025-10-01",
+      "url": "https://doi.org/10.48550/arXiv.2508.03876",
+      "summary": "Full experiment life cycle framework; Best Paper Award at IEEE VIS 2025."
+    },
     {
       "name": "Interaction Based Credibility Analysis of News on Facebook Using Machine Learning Methodologies",
       "publisher": "SITIS-2022",
@@ -125,38 +136,43 @@
   "skills": [
     {
       "name": "Research Methods",
-      "level": "",
-      "keywords": ["Data Scraping", "Surveying", "Interviewing"]
+      "keywords": ["Online controlled experiments", "Interviewing", "Qualitative coding", "Open-ended response analysis", "Thematic coding"]
+    },
+    {
+      "name": "Analysis",
+      "keywords": ["Mixed-effects models", "Regression", "Hypothesis testing", "Python (pandas, NumPy, SciPy, statsmodels, matplotlib, scikit-learn, PyTorch)"]
+    },
+    {
+      "name": "Visualization & Frontend",
+      "keywords": ["D3.js", "Vega/Vega-Lite", "React.js", "TypeScript", "Mantine UI", "Redux Toolkit", "Vite", "Arquero"]
+    },
+    {
+      "name": "Experiment Platforms & Storage",
+      "keywords": ["reVISit", "Supabase", "Firebase", "localforage"]
     },
     {
       "name": "Programming Languages",
-      "level": "",
-      "keywords": ["JavaScript", "Python", "Java", "C/C++", "SQL"]
-    },
-    {
-      "name": "Tools",
-      "level": "",
-      "keywords": ["Git", "Docker", "Jupyter Notebook", "Postman", "Wireshark"]
+      "keywords": ["Python", "Java", "C/C++", "SQL", "PL/SQL"]
     },
     {
       "name": "Databases",
-      "level": "",
-      "keywords": ["MySQL", "Oracle", "MongoDB", "PostgreSQL"]
+      "keywords": ["MySQL", "PostgreSQL", "MongoDB", "Oracle", "Elasticsearch"]
     },
     {
       "name": "Frameworks",
-      "level": "",
-      "keywords": ["Flask", "React.js", "Node.js", "Typescript", "FastAPI", "Bootstrap"]
+      "keywords": ["Flask", "FastAPI", "Node.js", "Bootstrap", "Alembic", "Celery"]
+    },
+    {
+      "name": "Tools/Software",
+      "keywords": ["Git", "Docker", "Kubernetes", "Jupyter Notebook", "VS Code", "Playwright", "Vitest"]
     },
     {
       "name": "Libraries",
-      "level": "",
-      "keywords": ["Pandas", "NumPy", "Matplotlib", "Scikit-learn"]
+      "keywords": ["pandas", "NumPy", "Keras", "Matplotlib", "SciPy", "scikit-learn", "PyTorch", "OpenCV", "OpenGL"]
     },
     {
       "name": "Scripting / Markup / Serialization",
-      "level": "",
-      "keywords": ["Bash", "TCL", "LaTeX", "YAML", "JSON"]
+      "keywords": ["Bash", "TCL", "LaTeX", "YAML", "HTML", "JSON"]
     }
   ],
   "interests": [
@@ -166,6 +182,24 @@
     }
   ],
   "projects": [
+    {
+      "name": "Interactive Guardrail-Integrated Line Chart Platform",
+      "description": "Dashboards and guardrail sampling logic with provenance logging for persuasive line chart studies.",
+      "highlights": [
+        "Built stimuli for guardrail study with attention checks and replayable logs.",
+        "Tech: TypeScript, React, Vite, Mantine UI, Redux Toolkit, D3.js, Vega/Vega-Lite, Arquero, reVISit, Supabase, Firebase."
+      ],
+      "url": "https://vdl.sci.utah.edu/guardrail-samples-study/"
+    },
+    {
+      "name": "Correlation JND Replication Experiments (ReVISit Framework)",
+      "description": "Staircase-style experiments measuring correlation JNDs across visualization types using reVISit.",
+      "highlights": [
+        "Linked reVISitPy specs with Jupyter prototyping and statistical analysis.",
+        "Tech: TypeScript, React, Vega-Lite, reVISit, Python (pandas, NumPy, SciPy, statsmodels)."
+      ],
+      "url": "https://revisit.dev/replication-studies/"
+    },
     {
       "name": "News Credibility Analysis on Facebook using User Interaction Data",
       "description": "Interaction-based ML for Bengali-language news credibility during COVID-19 and beyond.",
@@ -183,6 +217,18 @@
         "Recommendations to enhance accessibility and multimodality."
       ],
       "url": "https://www.bkash.com/en"
+    },
+    {
+      "name": "Online Art Gallery",
+      "description": "E-commerce platform for an art gallery with virtual exhibition rooms.",
+      "highlights": ["React.js, Node.js, Express.js, MongoDB"],
+      "url": "https://github.com/AbrarNad/online-art-gallery"
+    },
+    {
+      "name": "Compiler for a Subset of C",
+      "description": "Compiler front-end and code generator emitting 8086 machine code.",
+      "highlights": ["C, Flex, Bison, 8086"],
+      "url": "https://github.com/AbrarNad/Compiler-for-a-subset-of-C-language"
     }
   ]
 }

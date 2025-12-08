@@ -32,6 +32,21 @@
 - title: Research Experience
   type: time_table
   contents:
+    - title: Guardrail Selection in Line Charts for Persuasive Visualizations
+      institution: Visualization Design Lab & KORE Lab, University of Utah
+      year: 2025
+      description:
+        - Lead author on a preregistered mixed-design crowdsourced study evaluating guardrail sampling strategies in persuasive time-series dashboards (COVID-19 cases and stock performance).
+        - Built interactive stimuli with reVISit logging and provenance for 500+ participants; captured Supabase/Firebase-backed event traces for replay-based analysis.
+        - Tech: TypeScript, React, Vite, Mantine UI, D3.js, reVISit, Supabase, Firebase.
+        - Status: Under review (EuroVis 2026).
+    - title: Ranking Visualizations of Correlation (ReVISit Replication Study)
+      institution: ReVISit 2 Replication Project, University of Utah
+      year: 2024
+      description:
+        - Co-designed replication of correlation JND studies using reVISit dynamic sequencing and staircase designs across scatterplots, PCPs, hexbins, and heatmaps.
+        - Set up OSF preregistration; managed crowdsourced data collection and analyses.
+        - Status: Published; contributing to a first-authored short paper.
     - title: News Credibility Analysis on Facebook using User Interaction Data
       institution: Visualization Design Lab & KORE Lab, University of Utah
       year: 2021 - 2022
@@ -50,40 +65,35 @@
 - title: Work Experience
   type: time_table
   contents:
+    - title: Graduate Research Assistant
+      institution: Visualization Design Lab & KORE Lab, University of Utah
+      year: January 2025 - Present
     - title: Graduate Research Fellow
-      institution: Scientific Computing and Imaging Institute (SCI)
-      year: August 2024 - Present
-    - title: Software Engineer II — Digital Asset Management Team
+      institution: Visualization Design Lab & KORE Lab, University of Utah
+      year: August 2024 - December 2025
+    - title: Software Engineer — Digital Asset Management Team
       institution: Optimizely
-      year: January 2024 - July 2024
+      year: May 2022 - July 2024
       description:
-        - Digital Asset Management Team.
-        - Technologies: Python, Flask, JavaScript, TypeScript, React.js, MySQL, MongoDB, Alembic, Celery, Elasticsearch.
-    - title: Software Engineer I — Digital Asset Management Team
-      institution: Optimizely
-      year: November 2022 - December 2023
-      description:
-        - Implemented Brand Template features including download, export, access, and task integration.
-        - Implementing searching, filtering, and navigation in DAM collection folders.
-        - Implemented various user activity tracking for analytics.
-        - Implemented various asset features like meta information, relations, bulk operation improvements, and GPT-3.5-turbo model integration to generate smart content.
-        - Handled user roles and privileges for various features.
-        - Made improvements to several backend and UI components in terms of performance, and code quality.
+        - Digital Asset Management (DAM) team; implemented Brand Template features (download, export, cloning, task integration) and DAM collection search/filter/navigation with breadcrumbs.
+        - Added asset meta information, relations, bulk operations, and GPT-3.5-turbo integration; instrumented user activity tracking and improved accessibility, performance, and code quality.
         - Technologies: Python, Flask, JavaScript, TypeScript, React.js, MySQL, MongoDB, Alembic, Celery, Elasticsearch.
     - title: Software Engineering Intern — Asset Renditions Team
       institution: Optimizely
       year: May 2022 - October 2022
       description:
-        - Worked on implementing and maintaining a feature Asset Rendition.
-        - Built three services to generate asset renditions using the given specifications.
-        - Implemented stateless generators to scale horizontally and integrated asynchronous messaging for decoupling and scaling.
-        - Integrated the Rendition Service with the local development environment for developers.
-        - Implemented logging schemes to enable debugging by combining multiple services.
+        - Built and maintained asset rendition generators (image/video) with stateless scaling and async messaging; integrated logging and local dev tooling.
         - Technologies: Python, FastAPI, MySQL, PostgreSQL, Docker, Kubernetes, Message Queue.
 
 - title: Publications
   type: time_table
   contents:
+    - title: ReVISit 2: A Full Experiment Life Cycle User Study Framework
+      institution: IEEE Transactions on Visualization and Computer Graphics (IEEE VIS Proceedings)
+      year: 2025
+      description:
+        - Best Paper Award.
+        - DOI: <a href="https://doi.org/10.48550/arXiv.2508.03876" target="_blank" rel="noopener">10.48550/arXiv.2508.03876</a>.
     - title: Interaction Based Credibility Analysis of News on Facebook Using Machine Learning Methodologies
       institution: SITIS-2022
       year: 2022
@@ -95,26 +105,70 @@
   contents:
     - title: Research Methods
       items:
-        - Data Scraping; Surveying; Interviewing
+        - Online controlled experiments; interviewing; qualitative coding; open-ended response analysis; thematic coding
+    - title: Analysis
+      items:
+        - Mixed-effects models; regression; hypothesis testing; Python (pandas, NumPy, SciPy, statsmodels, matplotlib, scikit-learn, PyTorch)
+    - title: Visualization & Frontend
+      items:
+        - D3.js; Vega/Vega-Lite; React.js; TypeScript; Mantine UI; Redux Toolkit; Vite; Arquero
+    - title: Experiment Platforms & Storage
+      items:
+        - reVISit; Supabase; Firebase; localforage
     - title: Programming Languages
       items:
-        - JavaScript; Python; Java; C/C++; SQL
-    - title: Tools
-      items:
-        - Git; Docker; Jupyter Notebook; Postman; Wireshark
+        - Python; Java; C/C++; SQL; PL/SQL
     - title: Databases
       items:
-        - MySQL; Oracle; MongoDB; PostgreSQL
+        - MySQL; PostgreSQL; MongoDB; Oracle; Elasticsearch
     - title: Frameworks
       items:
-        - Flask; React.js; Node.js; Typescript; FastAPI; Bootstrap
+        - Flask; FastAPI; Node.js; Bootstrap; Alembic; Celery
+    - title: Tools/Software
+      items:
+        - Git; Docker; Kubernetes; Jupyter Notebook; VS Code; Playwright; Vitest
     - title: Libraries
       items:
-        - Pandas; NumPy; Matplotlib; Scikit-learn
+        - pandas; NumPy; Keras; Matplotlib; SciPy; scikit-learn; PyTorch; OpenCV; OpenGL
     - title: Scripting / Markup / Serialization
       items:
-        - Bash; TCL; LaTeX; YAML; JSON
+        - Bash; TCL; LaTeX; YAML; HTML; JSON
 
+- title: Projects
+  type: time_table
+  contents:
+    - title: Interactive Guardrail-Integrated Line Chart Platform
+      year: 2024 - 2025
+      description:
+        - Built guardrail sampling dashboards with attention checks and provenance logging for persuasive visualization studies.
+        - Integrated reVISit for replayable participant sessions.
+        - Tech: TypeScript, React, Vite, Mantine UI, Redux Toolkit, D3.js, Vega/Vega-Lite, Arquero, reVISit, Supabase, Firebase.
+    - title: Correlation JND Replication Experiments (ReVISit Framework)
+      year: 2024
+      description:
+        - Staircase-style experiments measuring correlation JNDs across visualization types using reVISit.
+        - Linked reVISitPy specs with Jupyter prototyping and statistical analysis.
+        - Tech: TypeScript, React, Vega-Lite, reVISit, Python (pandas, NumPy, SciPy, statsmodels).
+    - title: News Credibility Analysis on Facebook using User Interaction Data
+      year: 2021 - 2022
+      description:
+        - Interaction-based ML for Bengali-language news credibility during COVID-19 and beyond.
+        - Outperformed content-based/NLP baselines using interaction metrics; resilient to adversarial content.
+        - Tech: scikit-learn, pandas, matplotlib.
+    - title: Heuristic Analysis of bKash
+      year: 2021
+      description:
+        - Usability analysis of bKash mobile financial app; interviewed users and ranked issues; provided accessibility recommendations.
+    - title: Online Art Gallery
+      year: 2021
+      description:
+        - E-commerce platform for art galleries with virtual exhibition rooms.
+        - Tech: React.js, Node.js, Express.js, MongoDB.
+    - title: Compiler for a Subset of C
+      year: 2020
+      description:
+        - Compiler front-end and code generator emitting 8086 machine code.
+        - Tech: C, Flex, Bison, 8086.
 - title: Honors and Awards
   type: time_table
   contents:
@@ -122,6 +176,12 @@
       items:
         - Optimizely SPOT Award — October 2023
         - Optimizely SPOT Award — July 2023
+    - year: 2025
+      items:
+        - Best Paper Award, IEEE VIS 2025 (ReVISit 2)
+    - year: 2014/2016
+      items:
+        - Board Merit Scholarships (SSC & HSC), ranked 6th (male) in Dhaka Board in HSC
 
 - title: Interests
   type: list
