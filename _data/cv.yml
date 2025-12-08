@@ -143,6 +143,12 @@
         - Built guardrail sampling dashboards with attention checks and provenance logging for persuasive visualization studies.
         - Integrated reVISit for replayable participant sessions.
         - Tech: TypeScript, React, Vite, Mantine UI, Redux Toolkit, D3.js, Vega/Vega-Lite, Arquero, reVISit, Supabase, Firebase.
+    - title: HappyVis — Visualizing Happiness Around the Globe
+      year: 2024
+      description:
+        - Web-based visualization dashboard for World Happiness Report data with linked views (choropleth map, trend lines, correlation heatmaps, comparative views).
+        - Explores relationships between happiness, GDP per capita, life expectancy, and social support.
+        - Tech: JavaScript, D3.js.
     - title: Correlation JND Replication Experiments (ReVISit Framework)
       year: 2024
       description:

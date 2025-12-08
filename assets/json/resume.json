@@ -192,6 +192,15 @@
       "url": "https://vdl.sci.utah.edu/guardrail-samples-study/"
     },
     {
+      "name": "HappyVis: Visualizing Happiness Around the Globe",
+      "description": "Web-based visualization dashboard for the World Happiness Report dataset with linked views across countries and years.",
+      "highlights": [
+        "Interactive choropleth map, correlation heatmaps, trend line charts, and comparative views for happiness vs. GDP per capita, life expectancy, and social support.",
+        "Tech: JavaScript, D3.js."
+      ],
+      "url": "https://github.com/AbrarNad/HappyVis"
+    },
+    {
       "name": "Correlation JND Replication Experiments (ReVISit Framework)",
       "description": "Staircase-style experiments measuring correlation JNDs across visualization types using reVISit.",
       "highlights": [
