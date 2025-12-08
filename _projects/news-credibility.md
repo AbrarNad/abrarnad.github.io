@@ -11,6 +11,7 @@ Amid the COVID-19 outbreak, we initially focused on detecting fake health-relate
 
 We employed machine learning methodologies to classify public Facebook posts based on authenticity. The proposed method outperformed existing content-based and NLP-based solutions. Furthermore, our research demonstrated that user reactions or interactions with the system vary significantly based on the content of news articles, offering a useful way to gain valuable insights.
 
+- **Paper:** <a href="https://ieeexplore.ieee.org/abstract/document/10090133" target="_blank" rel="noopener">Interaction Based Credibility Analysis of News on Facebook Using Machine Learning Methodologies (SITIS-2022)</a>.
 - **Tech:** scikit-learn, pandas, matplotlib.
 - **Method:** Predictive Modeling Study; **Analysis:** Exploratory Data Analysis, Machine Learning.
 - **Current State:** Accepted (SITIS-2022).

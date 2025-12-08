@@ -39,6 +39,7 @@
         - Focused on detecting fake Bengali-language news with interaction-based machine learning models resilient to adversarial content.
         - Explored user reactions to classify public Facebook posts; XGBoost produced the best outputs among supervised approaches.
         - Tech stack included scikit-learn, pandas, and matplotlib.
+        - Publication: <a href="https://ieeexplore.ieee.org/abstract/document/10090133" target="_blank" rel="noopener">Interaction Based Credibility Analysis of News on Facebook Using Machine Learning Methodologies (SITIS-2022)</a>.
     - title: Heuristic Analysis of bKash
       institution: Bangladesh University of Engineering and Technology
       year: 2021
@@ -79,6 +80,15 @@
         - Integrated the Rendition Service with the local development environment for developers.
         - Implemented logging schemes to enable debugging by combining multiple services.
         - Technologies: Python, FastAPI, MySQL, PostgreSQL, Docker, Kubernetes, Message Queue.
+
+- title: Publications
+  type: time_table
+  contents:
+    - title: Interaction Based Credibility Analysis of News on Facebook Using Machine Learning Methodologies
+      institution: SITIS-2022
+      year: 2022
+      description:
+        - <a href="https://ieeexplore.ieee.org/abstract/document/10090133" target="_blank" rel="noopener">Paper link</a>; focus on interaction-based models for Bengali fake news detection.
 
 - title: Skills
   type: nested_list
