@@ -1,0 +1,592 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,12pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{multicol}
+\input{glyphtounicode}
+
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generated pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeWorkSubheading}[6]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+      \textit{\small#5} & \textit{\small #6} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{graphicx}
+
+
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+%\textbf{   UserID/email: abrar.nadib@gmail.com}
+\begin{center}
+
+    \textbf{\scshape \begin{huge} Khandaker Abrar Nadib \end{huge}} \\ \vspace{1pt}
+    \small Email: \href{mailto:abrar.nadib@gmail.com}{\textcolor{blue}{abrar.nadib@gmail.com}} $|$ Github:  \href{https://github.com/AbrarNad}{\textcolor{blue}{AbrarNad}} $|$LinkedIn: \href{https://www.linkedin.com/in/abrar-nadib/}{\textcolor{blue}{abrar-nadib}} $|$ 
+    Web: \href{https://abrarnad.github.io/}{\textcolor{blue}{abrarnadib.github.io}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+  \section{Research Interests}
+    I study how people interpret and disseminate charts and data in interactive, online environments.
+    My work sits at the intersection of \textbf{Information Visualization}, \textbf{Human--Computer Interaction (HCI)}, and
+\textbf{human-centered data science}. My goal is to improve comprehension of complex data and decision-making through designing better visualization and storytelling systems.
+    
+
+  \section{Publications}
+    \resumeSubHeadingListStart
+    
+      \resumeItem{
+        \textbf{ReVISit 2: A Full Experiment Life Cycle User Study Framework}\\
+        Zach Cutler, Jack Wilburn, Hilson Shrestha, Yiren Ding, Brian Bollen,
+        Khandaker Abrar Nadib, Tingying He, Andrew McNutt, Lane Harrison, and Alexander Lex.\\
+        \emph{IEEE Transactions on Visualization and Computer Graphics} (Proceedings of IEEE VIS 2025, \textbf{Best Paper Award}), 2025.
+        \textbf{DOI:} \href{https://doi.org/10.48550/arXiv.2508.03876}{10.48550/arXiv.2508.03876}
+      }
+    
+      \resumeItem{
+        \textbf{Interaction Based Credibility Analysis of News on Facebook Using Machine Learning Methodologies}\\
+        Sadia Sharmin, Sudipa Saha, Tasin Hoque, and Khandaker Abrar Nadib.\\
+        
+        In \emph{Proceedings of the 16th International Conference on Signal Image Technology \& Internet based Systems (SITIS)},
+        2022.
+        \textbf{DOI:} \href{https://doi.org/10.1109/SITIS57111.2022.00077}{10.1109/SITIS57111.2022.00077}
+      }
+    
+    \resumeSubHeadingListEnd
+    
+
+    
+\section{Research Experience}
+\resumeSubHeadingListStart
+
+  \resumeSubheading
+    {Guardrail Selection in Line Charts for Persuasive Visualizations}{2025}
+    {Visualization Design Lab \& KORE Lab, University of Utah}{Salt Lake City, Utah}
+    \resumeItemListStart
+      \resumeItem{Lead author on a preregistered mixed-design crowd-sourced study of guardrail sampling strategies in persuasive
+time-series dashboards (COVID-19 cases and stock performance), evaluating trust, performance, and
+perceived contextual completeness.}
+      % \resumeItem{Designed and implemented a preregistered, mixed-design online experiment on how different contextual comparison strategies influence trust, ranking accuracy, and perceived context in COVID-19 and stock charts.}
+      % \resumeItem{Built web-based experimental stimuli and logging/instrumentation pipelines, integrated with reVISit, to support crowd-sourced data collection and replay-based analysis.}
+      \resumeItem{Built an interactive visualization study using the reVISit framework, implementing various guardrail techniques for contextualizing line-chart comparisons and integrated a logging pipeline that captures provenance graphs, interaction events with Supabase/Firebase-backed storage for replay-based analysis of 500+ crowdsourced participants.}
+      % \resumeItem{Developed the full analysis workflow in Python using mixed-effects models for studying effects of visual conditions and adversarial framings.}
+      \resumeItem{\textbf{Tech:} TypeScript, React, Vite, Mantine UI, D3.js, reVISit, Supabase, Firebase.}
+      \resumeItem{\textbf{Status:} Under Review in EuroVis 2026.}
+
+    \resumeItemListEnd
+
+  % \resumeSubheading
+  %   {Graduate Research Fellow, Visualization Design Lab \& KORE Lab}{Aug 2024 -- Present}
+  %   {University of Utah, School of Computing}{Salt Lake City, Utah}
+  %   \resumeItemListStart
+  %     \resumeItem{Lead author on a preregistered mixed-design study of guardrail sampling strategies in persuasive time-series dashboards (COVID-19 cases and stock performance), evaluating trust, rank accuracy, and perceived contextual completeness.}
+  %     \resumeItem{Designed guardrail methods (percentile markers, exemplar-based guardrails, cluster representatives, and semantically-matched exemplars) and ran a large-scale crowdsourced experiment using reVISit and Prolific.}
+  %     \resumeItem{Implemented the full analysis pipeline (data cleaning, visualization, and mixed-effects modeling) to compare guardrail strategies against control conditions and random baselines.}
+  %     \resumeItem{Co-authored reVISit 2 by contributing to correlation JND replication studies, experiment design, and analysis workflows for a full experiment life cycle framework.}
+  %   \resumeItemListEnd
+
+  \resumeSubheading
+    {Ranking Visualizations of Correlation (ReVISit Replication Study)}{2024}
+    {ReVISit 2 Replication Project}{University of Utah}
+    \resumeItemListStart
+      \resumeItem{Co-designed and implemented a replication of Harrison et al.'s correlation JND study using reVISit’s dynamic sequencing and staircase designs.}
+      \resumeItem{Configured OSF preregistration and study materials, and helped manage crowdsourced data collection across multiple visualization conditions (scatterplots, PCPs, hexbins, heatmaps).}
+      \resumeItem{\textbf{Status:} Published, also working in a first-authored short paper.}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {News Credibility Analysis on Facebook using User Interactions}{2021 -- 2022}
+    {Bangladesh University of Engineering and Technology (BUET)}{Dhaka, Bangladesh}
+    \resumeItemListStart
+      \resumeItem{Proposed and evaluated an interaction-based approach for fake news detection on Facebook, using engagement signals rather than language features.}
+      \resumeItem{Trained machine learning models to classify the authenticity of public posts; showed improved performance over content- and NLP-based baselines and language independence.}
+      \resumeItem{\textbf{Tech:} Crowdtangle, scikit-learn, pandas, matplotlib.}
+      \resumeItem{\textbf{Status:} Published}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+    
+\section{Education}
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Utah}{Salt Lake City, Utah}
+      {Doctor of Philosophy in Computer Science}{August 2024 --  Present}  
+      
+    \resumeSubheading
+      {Bangladesh University of Engineering and Technology (BUET)}{Dhaka, Bangladesh}
+      {Bachelor of Science in Computer Science and Engineering}{Feb 2017 --  May,2022}
+      % \resumeItemListStart
+      %   \resumeItem{\textbf{CGPA: 3.50/4.00}  (Last two semesters: \textbf{3.82})}
+      %    \resumeItem{\textbf{Major CGPA: 3.68/4.00}} 
+        
+      % \resumeItemListEnd
+   
+      
+\resumeSubHeadingListEnd
+
+% \section{Standardized Test Scores}
+%   \resumeSubHeadingListStart
+%     \resumeSubheading
+%       {TOEFL}{}
+%       {Speaking: 29, Reading: 29, Listening: 28, Writing: 28}{\textbf{114}}
+%     \resumeSubheading
+%       {GRE}{}
+%       {Quant: 162, Verbal: 153, AWA: 4.5}{\textbf{319.5}}
+      
+
+%   \resumeSubHeadingListEnd
+
+\section{Work Experience}
+  \resumeSubHeadingListStart
+    \resumeWorkSubheading
+        {Graduate Research Assistant}{January 2025 -- Present}
+        {University of Utah, Salt Lake City}{}
+        {Visualization Design Lab, KORE Lab}{}
+    \resumeWorkSubheading
+        {Graduate Research Fellow}{August 2024 -- December 2025}
+        {University of Utah, Salt Lake City}{}
+        {Visualization Design Lab, KORE Lab}{}
+    \resumeWorkSubheading
+        {Software Engineer}{May 2022 -- July 2024}
+        {\href{https://www.optimizely.com/}{\textcolor{blue}{Optimizely}}, Dhaka}{}
+        {\textit{Digital Asset Management (DAM)}}{November 2022 -- July 2024}
+        \resumeItemListStart
+            \resumeItem{Currently working in the Digital Asset Management (similar to Google Drive) team.}
+            \resumeItem{Implemented Brand Template feature, which lets users create a Template for their brand and define Placeholders that other collaborators can edit. I also implemented Download, Export, Cloning, and Task integration features for Brand Templates.}
+            \resumeItem{DAM Collections are a group of user-defined Assets, including Asset folders. I implemented Searching, Filtering, and Navigation within DAM Collection folders.}
+            \resumeItem{Implemented various asset-specific features like meta information, asset relations, and bulk operations, which enhanced user ability to handle assets.}
+            \resumeItem{Implemented breadcrumbs in the DAM Library to make the navigation more fluid for the users.}
+            \resumeItem{Implemented various user activity tracking for analytics to gain useful insights.}
+            \resumeItem{Made improvements to several backend and UI components in terms of accessibility, performance, and code quality.}
+            \resumeItem{Upgraded and integrated GPT-3.5-turbo model for AI content generation.}
+
+            \resumeItem{Handled user roles and privileges for various features.}
+            \resumeItem{\textbf{Technologies:} Python, Flask, JavaScript, TypeScript, React.js, MySQL, MongoDB, Alembic, Celery, Elasticsearch}
+        \resumeItemListEnd
+        \resumeSubSubheading
+            {Asset Renditions (AR)}{May 2022 -- October 2022}
+            \resumeItemListStart
+                \resumeItem{Worked on implementing and maintaining a feature Asset Rendition. This feature allows users to pre-define “Rendition types”, using which whenever users upload a new asset, new “Renditions” of that asset are automatically generated in the background. Example use-case: a user may define two image rendition types- 1. Facebook- 1080*720 crop and Instagram-  720*720 crop. Then whenever the user uploads an image asset, two cropped images will automatically be generated with the given specifications. }
+                \resumeItem{Implemented logging schemes by combining multiple services to enable users and developers to diagnose and debug errors.}
+                \resumeItem{Built three services to generate asset renditions using the given specifications including image and video generators.}
+                \resumeItem{Implemented stateless generators to scale horizontally and integrated asynchronous messaging for decoupling and scaling, for efficiency.}
+                \resumeItem{Integrated the Rendition Service with the local development environment for developers.}
+                
+                \resumeItem{\textbf{Technologies:} Python, FastAPI, MySQL, PostgreSQL, Docker, Kubernetes, Message Queue}
+            \resumeItemListEnd
+  \resumeSubHeadingListEnd
+ 
+
+%-----------Academic Projects-----------
+% \section{Projects}
+% \resumeSubHeadingListStart
+   
+       
+%      \resumeProjectHeading
+%           {\textbf{\href{https://github.com/AbrarNad/online-art-gallery}{\textcolor{blue}{Online Art Gallery}}} $|$ \emph{Library: React.js, Node.js, Express.js, Mongoose, Database MongoDB }}{2021}
+%           \resumeItemListStart
+%             \resumeItem{Designed an e-commerce platform for an Art Gallery.}
+        
+%           \resumeItemListEnd
+%           \resumeItemListStart
+%             \resumeItem{ Virtual exhibitions simulated using virtual rooms.}
+        
+%           \resumeItemListEnd
+
+%     \resumeProjectHeading
+%           {\textbf{\href{https://github.com/AbrarNad/Advanced-Encryption-Standard-AES-}{\textcolor{blue}{AES (Advanced Encryption Standard)}}} $|$ \emph{Language: Python, Libraries: numpy}}{2021}
+%           \resumeItemListStart
+%             \resumeItem{Encryption and Decryption algorithm for 128-bit key size implemented
+% using Python and numpy.}
+            
+%           \resumeItemListEnd
+
+%     \resumeProjectHeading
+%           {\textbf{\href{https://github.com/AbrarNad/Ray-Tracing}{\textcolor{blue}{Rendering scenes using Ray Tracing}}} $|$ \emph{Language: C, Libraries: OpenGL}}{2022}
+%           \resumeItemListStart
+%             \resumeItem{An interactive environment designed in C using OpenGL.}
+            
+%           \resumeItemListEnd
+%           \resumeItemListStart
+%             \resumeItem{Lighting for the environment implemented using the Phong Reflection Model}
+            
+%           \resumeItemListEnd
+
+%     \resumeProjectHeading
+%           {\textbf{\href{https://github.com/AbrarNad/Compiler-for-a-subset-of-C-language}{\textcolor{blue}{Compiler for a Subset of C Language}}} $|$ \emph{Language: C Libraries: Flex, Bison, 8086}}{2020}
+%           \resumeItemListStart
+%             \resumeItem{Compiler with parser written in C.}
+            
+%           \resumeItemListEnd
+%           \resumeItemListStart
+%             \resumeItem{ Compiles to 8086 machine code.}
+            
+%           \resumeItemListEnd
+    
+
+%     \resumeProjectHeading
+%           {\textbf{\href{https://github.com/AbrarNad/Live-Cricket-Scoreboard}{\textcolor{blue}{Live Cricket Scoreboard}}} $|$ \emph{Libraries: JavaFX, Scenebuilder}}{2020}
+%           \resumeItemListStart
+%             \resumeItem{A headless app that displays live scores in tabular format.}
+            
+%           \resumeItemListEnd
+%           \resumeItemListStart
+%             \resumeItem{Basic files used for storage.}
+            
+%           \resumeItemListEnd
+          
+        
+%     \resumeProjectHeading
+%           {\textbf{\href{https://github.com/meherafrozsworna/online_diagostics_and_consultant_center}{\textcolor{blue}{Backend of an E-commerce Platform}}} $|$ \emph{Language: PHP, Database: PostgreSQL}}{2021}
+%           \resumeItemListStart
+%             \resumeItem{Designed the backend of a buy-sell platform.}
+            
+%           \resumeItemListEnd
+%           \resumeItemListStart
+%             \resumeItem{ Showcased complex database
+% queries.}
+            
+%           \resumeItemListEnd
+     
+%     \resumeSubHeadingListEnd
+
+% \section{Projects}
+% \resumeSubHeadingListStart
+
+%   \resumeProjectHeading
+%     {\textbf{\href{https://vdl.sci.utah.edu/guardrail-samples-study/}{Interactive Guardrail-Integrated Line Chart Platform}}}{2024--2025}
+%     \resumeItemListStart
+%       \resumeItem{Implemented interactive dashboards used as stimuli in the guardrail selection study, including guardrail sampling logic, attention checks, and logging for fine-grained replay.}
+%       \resumeItem{Integrated reVISit’s provenance tracking to support participant replays and transparent, reproducible experiments.}
+%       \resumeItem{\textbf{Technologies:} TypeScript, React~18, Vite, Mantine UI, Redux Toolkit, D3.js, Vega/Vega-Lite, Arquero, reVISit, Supabase, Firebase.}
+
+%     \resumeItemListEnd
+
+%   \resumeProjectHeading
+%     {\textbf{\href{https://revisit.dev/replication-studies/}{Correlation JND Replication Experiments (ReVISit Framework)}}}{2024}
+%     \resumeItemListStart
+%       \resumeItem{Built a staircase-style experiment to measure just-noticeable differences in correlation across multiple visualization types using reVISit’s dynamic sequencing.}
+%       \resumeItem{Developed a notebook-based design + analysis workflow that links reVISitPy specification, Jupyter prototyping, and statistical analysis.}
+%       \resumeItem{\textbf{Technologies:} TypeScript, React, Vega-Lite, reVISit, Python (pandas, NumPy, SciPy, statsmodels).}
+
+%     \resumeItemListEnd
+
+%   % (Optional) keep only 2–3 of the older software projects:
+%   \resumeProjectHeading
+%     {\textbf{Online Art Gallery} $|$ \emph{React.js, Node.js, Express.js, MongoDB}}{2021}
+%     \resumeItemListStart
+%       \resumeItem{Designed an e-commerce platform for an art gallery with support for virtual exhibition rooms and artwork browsing.}
+%     \resumeItemListEnd
+
+%   \resumeProjectHeading
+%     {\textbf{Compiler for a Subset of C} $|$ \emph{C, Flex, Bison, 8086}}{2020}
+%     \resumeItemListStart
+%       \resumeItem{Implemented a compiler front-end and code generator that emits 8086 machine code for a subset of C.}
+%     \resumeItemListEnd
+
+% \resumeSubHeadingListEnd
+\section{Projects}
+\resumeSubHeadingListStart
+
+  \resumeProjectHeading
+    {\textbf{\href{https://vdl.sci.utah.edu/guardrail-samples-study/}{Interactive Guardrail-Integrated Line Chart Platform}}}{2024--2025}
+    \resumeItemListStart
+      \resumeItem{Implemented interactive dashboards used as stimuli in the guardrail selection study, including guardrail sampling logic, randomization.}
+      \resumeItem{\textbf{Technologies:} TypeScript, React~18, Vite, Mantine UI, Redux Toolkit, D3.js, Vega/Vega-Lite, Arquero, reVISit, Supabase, Firebase.}
+    \resumeItemListEnd
+
+  \resumeProjectHeading
+    {\textbf{\href{https://revisit.dev/replication-studies/}{Correlation JND Replication Experiments (ReVISit Framework)}}}{2024}
+    \resumeItemListStart
+      \resumeItem{Built a staircase-style experiment to measure just-noticeable differences in correlation across multiple visualization types using reVISit’s dynamic sequencing.}
+      \resumeItem{\textbf{Technologies:} TypeScript, React,D3.js, reVISit, Python (pandas, NumPy, SciPy, statsmodels), firebase.}
+    \resumeItemListEnd
+    
+  \resumeProjectHeading
+    {\textbf{\href{https://github.com/AbrarNad/HappyVis}{HappyVis: Visualizing Happiness Around the Globe}}}{2024}
+    \resumeItemListStart
+      \resumeItem{Designed a web-based visualization dashboard for the World Happiness Report dataset, enabling exploration of global happiness scores and contributing factors across countries and years.} 
+      \resumeItem{Implemented linked views including an interactive choropleth map, trend line charts, and comparative views to analyze relationships between happiness, GDP per capita, life expectancy, and social support.}
+      \resumeItem{\textbf{Technologies:} JavaScript, D3.js.}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+
+
+
+
+%--------------Awards-----------
+% \section{Awards and Honors}
+%   \resumeSubHeadingListStart
+%    \resumeSubheading
+%     {Optimizely SPOT Award for October and July}{2023}
+%     {Nominated by teammates and manager.}{}
+%      \resumeItemListStart
+%             \resumeItem{\textbf{October}-Awarded for being a team player and positive feedback.}
+%             \resumeItem{\textbf{July}- Awarded for tackling challenges head-on and inspiring team growth.}
+%         \resumeItemListEnd
+    % \resumeSubheading
+    % {Optimizely SPOT Award}{July 2023}
+    % {Nominated by teammates and manager.}{}
+    %  \resumeItemListStart
+    %         \resumeItem{Awarded for tackling challenges head-on and inspiring team growth.}
+    %     \resumeItemListEnd
+    
+    % \resumeSubHeadingListEnd
+% \section{Awards and Honors}
+%   \resumeSubHeadingListStart
+%    \resumeSubheading
+%     {Optimizely SPOT Award}{October 2023}
+%     {Nominated by teammates and manager.}{}
+%      \resumeItemListStart
+%             \resumeItem{Awarded in recognition of excellent performance and contribution.}
+%         \resumeItemListEnd
+%     \resumeSubheading
+%     {Optimizely SPOT Award}{July 2023}
+%     {Nominated by teammates and manager.}{}
+%      \resumeItemListStart
+%             \resumeItem{Awarded in recognition of resolving challenging problems and performance.}
+%         \resumeItemListEnd
+%     \resumeSubheading
+%         {Board Merit Scholarship- HSC}{2016}
+%         {Education board scholarship}{}
+%         \resumeItemListStart
+%             \resumeItem{Ranked 6th(male) in Dhaka board.}
+%         \resumeItemListEnd
+%     \resumeSubheading
+%         {Board Merit Scholarship- SSC}{2014}
+%         {Education board scholarship}{}
+
+%     \resumeSubHeadingListEnd
+
+\section{Awards and Honors}
+\resumeSubHeadingListStart
+
+  \resumeSubheading
+    {Best Paper Award, IEEE VIS 2025}{2025}
+    {for ``ReVISit 2: A Full Experiment Life Cycle User Study Framework''}{}
+
+  \resumeSubheading
+    {Optimizely SPOT Awards (July \& October)}{2023}
+    {Two peer-nominated SPOT awards recognizing problem solving, team contribution, and performance}{}
+
+  \resumeSubheading
+    {Board Merit Scholarships (SSC \& HSC)}{2014, 2016}
+    {Education Board Scholarships; ranked 6\textsuperscript{th} (male) in Dhaka Board in HSC}{}
+
+\resumeSubHeadingListEnd
+
+%
+%-----------PROGRAMMING SKILLS-----------
+% \section{Technical Skills}
+%     \begin{itemize}[leftmargin=0.15in, label={}]
+%       \small{\item{
+%         \textbf{Research Methods}{: Online controlled experiments, interviewing, Qualitative coding} \\
+%         \textbf{Analysis}{: Mixed-effects models, regression, hypothesis testing; Python (pandas, NumPy, SciPy, statsmodels, matplotlib, scikit-learn)} \\
+%         \textbf{Visualization \& Frontend}{: D3.js, Vega, Vega-Lite, React.js, TypeScript, Mantine UI, Redux Toolkit, Vite} \\
+%         \textbf{Languages}{: Python, Java, C/C++, SQL, PL/SQL} \\
+%         \textbf{Databases and Storage}{: MySQL, PostgreSQL, MongoDB, Oracle, Elasticsearch} \\
+%         \textbf{Frameworks}{: Flask, FastAPI, Celery, Node.js, Bootstrap, Alembic} \\
+%         \textbf{Tools/Software}{:Git, Docker, Kubernetes, Jupyter Notebooks, Playwright} \\
+%         \textbf{Libraries}{: RTL, Enzyme, pandas, NumPy, Pytorch, Matplotlib, OpenCV, OpenGL} \\
+%         \textbf{Scripting/Markup/Serialization}{: Bash, TCL, \LaTeX{}, YAML, HTML, JSON} \\
+%       }}
+%     \end{itemize}
+    
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+    \textbf{Research Methods}{: Online controlled experiments, interviewing, qualitative coding (open-ended response analysis, thematic coding)} \\
+    \textbf{Analysis}{: Mixed-effects models, regression, hypothesis testing; Python (pandas, NumPy, SciPy, statsmodels, matplotlib, scikit-learn, PyTorch} \\
+    \textbf{Visualization \& Frontend}{: D3.js, Vega, Vega-Lite, React.js, TypeScript, Mantine UI, Redux Toolkit, Vite} \\
+    \textbf{Experiment Platforms \& Storage}{: reVISit, Supabase, Firebase, localforage} \\
+    \textbf{Languages}{: Python, Java, C/C++, SQL, PL/SQL} \\
+    \textbf{Databases}{: MySQL, PostgreSQL, MongoDB, Oracle} \\
+    \textbf{Frameworks}{: Flask, FastAPI, Node.js, Bootstrap} \\
+    \textbf{Tools/Software}{: Git, Docker, Jupyter Notebook, VS Code, PyCharm, IntelliJ, TensorFlow, Playwright, Vitest} \\
+    \textbf{Libraries}{: pandas, NumPy, Arquero (JS), Keras, Matplotlib, SciPy, scikit-learn, PyTorch, OpenCV, OpenGL} \\
+    \textbf{Scripting/Markup/Serialization}{: Bash, TCL, \LaTeX{}, YAML, HTML, JSON} \\
+  }}
+\end{itemize}
+
+
+
+%-----------Volunteering exp-----------
+% \section{Volunteering and Leadership Experiences}
+%   \resumeSubHeadingListStart
+%     \resumeSubheading
+%       {Vice President}{December 2021- May 2022}
+%       {BUET Computer Club}{}
+% \resumeItemListStart
+%       \resumeItem{In charge of organizing and running university events under the club's banner.}
+%     \resumeItemListEnd
+%       \resumeSubheading
+%       {Vice President}{February 2021- April 2022}
+%       {BUET Dance Club}{}
+% \resumeItemListStart
+%       \resumeItem{In charge of organizing events and workshops on campus.}
+%     \resumeItemListEnd
+      
+%   \resumeSubHeadingListEnd
+  
+% \section{Standardized Test Scores}
+%   \resumeSubHeadingListStart
+%     \resumeSubheading
+%       {TOEFL}{}
+%       {Speaking: 29, Reading: 29, Listening: 28, Writing: 28}{114}
+%     \resumeSubheading
+%       {GRE}{}
+%       {Quant: 162, Verbal: 153, AWA: 4.5}{319.5}
+      
+
+%   \resumeSubHeadingListEnd
+
+% \section{References}
+%   \setlength\multicolsep{0pt}
+%   \begin{multicols}{2}
+% \href{https://cse.buet.ac.bd/faculty_list/detail/sadia}{\textcolor{blue}{Dr. Sadia Sharmin}},Associate Professor\\ 
+% \href{https://cse.buet.ac.bd/}{\textcolor{blue}{Department of CSE}}, \href{https://www.buet.ac.bd}{\textcolor{blue}{BUET}}\\
+% \textbf{Contact: }+880 1817108555\\ \href{mailto:sadiasharmin.ss@gmail.com}{\textbf{Email:} \textcolor{blue}{sadiasharmin.ss@gmail.com}}\\
+% \columnbreak
+% \href{https://cse.buet.ac.bd/faculty_list/detail/sharif}{\textcolor{blue}{Md. Shariful Islam Bhuyan}},Assistant Professor\\ 
+% \href{https://cse.buet.ac.bd/}{\textcolor{blue}{Department of CSE}}, \href{https://www.buet.ac.bd}{\textcolor{blue}{BUET}}\\
+% \textbf{Contact: }+88 01918961099\\ \href{mailto:sharifulislam@cse.buet.ac.bd}{\textbf{Email:} \textcolor{blue}{sharifulislam@cse.buet.ac.bd}}\\
+
+% \end{multicols}
+% \section{References}
+% \setlength\multicolsep{0pt}
+% \begin{multicols}{2}
+
+% \textbf{Prof.~Alexander Lex}\\
+% Graz University of Technology \& University of Utah\\
+% Doctoral advisor\\
+% \href{mailto:alex@sci.utah.edu}{alex@sci.utah.edu}\\[6pt]
+
+% \textbf{Prof.~Marina Kogan}\\
+% School of Computing, University of Utah\\
+% Doctoral advisor\\
+% \href{mailto:kogan@cs.utah.edu}{kogan@cs.utah.edu}\\[6pt]
+
+% \columnbreak
+
+% \textbf{Prof.~Maxim Lisnic}\\
+% \href{https://mlisnic.github.io/}{mlisnic.github.io}\\
+% Research collaborator \& mentor\\
+% \href{mailto:mlisnic@icloud.com}{mlisnic@icloud.com}\\
+
+% \end{multicols}
+
+
+%-------------------------------------------
+\end{document}
