@@ -38,8 +38,9 @@ jobs:
         uses: ruby/setup-ruby@4a9ddd6f338a97768b8006bf671dfbad383215f4
         with:
           ruby-version: '3.3.4' # Not needed with a .ruby-version file
-          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-          cache-version: 0 # Increment this number if you need to re-download cached gems
+          bundler-cache: false # avoid cache 400s; install explicitly next step
+      - name: Bundle install
+        run: bundle install --without development test --jobs 4 --retry 3
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
