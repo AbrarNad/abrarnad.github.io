@@ -88,7 +88,7 @@
 - title: Publications
   type: time_table
   contents:
-    - title: ReVISit 2: A Full Experiment Life Cycle User Study Framework
+    - title: "ReVISit 2: A Full Experiment Life Cycle User Study Framework"
       institution: IEEE Transactions on Visualization and Computer Graphics (IEEE VIS Proceedings)
       year: 2025
       description:
