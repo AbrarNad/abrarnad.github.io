@@ -3,7 +3,7 @@ layout: page
 title: News Credibility Analysis on Facebook using User Interaction Data
 description: Interaction-based machine learning for Bengali-language news credibility.
 img: assets/img/8.jpg
-importance: 1
+importance: 2
 category: research
 ---
 

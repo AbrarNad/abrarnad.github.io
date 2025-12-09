@@ -3,7 +3,7 @@ layout: page
 title: Heuristic Analysis of bKash
 description: Usability analysis of a mobile financial application.
 img: assets/img/bkash-banner.svg
-importance: 2
+importance: 3
 category: research
 ---
 
