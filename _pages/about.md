@@ -26,7 +26,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm a 2nd Year PhD Student at the University of Utah, Kahlert School of Computing, based in Salt Lake City, Utah. I am currently co-advised by Prof. <a href="https://vdl.sci.utah.edu/team/lex/">Alexander Lex</a> and Prof. <a href="http://www.mkoganresearch.com/">Marina Kogan</a> and work with the <a href="https://vdl.sci.utah.edu/">Visualization Design Lab</a> and the <a href="http://www.mkoganresearch.com/projects/">KORE Lab</a>. I study how people interpret and disseminate charts and data in interactive, online environments. My work sits at the intersection of <b>Information Visualization</b>, <b>Human–Computer Interaction (HCI)</b>, and <b>human-centered data science</b>. My goal is to improve comprehension of complex data and decision-making through designing better visualization and storytelling systems.
+I'm a 2nd Year PhD Student at the University of Utah, Kahlert School of Computing, based in Salt Lake City, Utah. I am currently co-advised by Prof. <a href="https://vdl.sci.utah.edu/team/lex/">Alexander Lex</a> and Prof. <a href="http://www.mkoganresearch.com/">Marina Kogan</a> and work with the <a href="https://vdl.sci.utah.edu/">Visualization Design Lab</a> and the <a href="http://www.mkoganresearch.com/projects/">KORE Lab</a>. I study how people interpret and disseminate charts and data in interactive, online environments. My work sits at the intersection of <b>Information Visualization</b>, <b>Human-Computer Interaction (HCI)</b>, and <b>Human-Centered Data Science</b>.
 
 Please visit my <a href="https://scholar.google.com/citations?user=gTCy_9MAAAAJ&hl=en&oi=ao" target="_blank">Google Scholar</a> profile to see my publications.
 
@@ -35,6 +35,6 @@ target="_blank">Optimizely</a> and have three years of experience. I graduated f
 target="_blank">Bangladesh University of Engineering and Technology
 (BUET)</a> with a BSc in Computer Science and Engineering.
 
-Complementing my scholarly pursuits, I am passionate about films, traveling, competitive FPS gaming, and arts. I embrace diverse cultures and foster a nuanced worldview.
+Complementing my scholarly pursuits, I am passionate about films, competitive FPS gaming, and photography.
 
 You can view/download my complete CV <a href="/assets/pdf/Khandaker_Abrar_Nadib_CV.pdf" target="_blank">here</a>.
