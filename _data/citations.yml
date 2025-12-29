@@ -1,3 +1,15 @@
 metadata:
-  last_updated: '2024-10-01'
-papers: {}
+  last_updated: '2025-12-29'
+papers:
+  gTCy_9MAAAAJ:d1gkVwhDpl0C:
+    citations: 0
+    title: "Replication of \u201CRanking Visualizations of Correlation\u201D, and Additional Visualizations"
+    year: '2025'
+  gTCy_9MAAAAJ:u-x6o8ySG0sC:
+    citations: 1
+    title: 'ReVISit 2: A Full Experiment Life Cycle User Study Framework'
+    year: '2025'
+  gTCy_9MAAAAJ:u5HHmVD_uO8C:
+    citations: 1
+    title: Interaction Based Credibility Analysis of News on Facebook Using Machine Learning Methodologies
+    year: '2022'
