@@ -1,12 +1,16 @@
 metadata:
-  last_updated: '2026-05-04'
+  last_updated: '2026-05-18'
 papers:
+  gTCy_9MAAAAJ:9yKSN-GCB0IC:
+    citations: 0
+    title: Guardrail Selection in Line Charts to Contextualize Persuasive Visualizations
+    year: '2026'
   gTCy_9MAAAAJ:d1gkVwhDpl0C:
     citations: 0
     title: "Replication of \u201CRanking Visualizations of Correlation\u201D, and Additional Visualizations"
     year: '2025'
   gTCy_9MAAAAJ:u-x6o8ySG0sC:
-    citations: 8
+    citations: 9
     title: 'ReVISit 2: A Full Experiment Life Cycle User Study Framework'
     year: '2026'
   gTCy_9MAAAAJ:u5HHmVD_uO8C:
