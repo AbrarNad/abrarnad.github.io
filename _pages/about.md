@@ -26,7 +26,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm a 2nd Year PhD Student at the University of Utah, Kahlert School of Computing, based in Salt Lake City, Utah. I am currently co-advised by Prof. <a href="http://www.mkoganresearch.com/">Marina Kogan</a> and Prof. <a href="https://vdl.sci.utah.edu/team/lex/">Alexander Lex</a> and work with the <a href="https://vdl.sci.utah.edu/">Visualization Design Lab</a> and the <a href="http://www.mkoganresearch.com/projects/">KORE Lab</a>. I study how people interpret and disseminate charts and data in interactive, online environments. My work sits at the intersection of <b>Information Visualization</b>, <b>Human-Computer Interaction (HCI)</b>, and <b>Human-Centered Data Science</b>.
+Hi, I'm Abrar (pronounced: aabraar). I'm a 2nd Year PhD Student at the University of Utah, Kahlert School of Computing, based in Salt Lake City, Utah. I am currently co-advised by Prof. <a href="http://www.mkoganresearch.com/">Marina Kogan</a> and Prof. <a href="https://vdl.sci.utah.edu/team/lex/">Alexander Lex</a> and work with the <a href="https://vdl.sci.utah.edu/">Visualization Design Lab</a> and the <a href="http://www.mkoganresearch.com/projects/">KORE Lab</a>. I study how people interpret and disseminate charts and data in interactive, online environments. My work sits at the intersection of <b>Information Visualization</b>, <b>Human-Computer Interaction (HCI)</b>, and <b>Human-Centered Data Science</b>.
 
 Please visit my <a href="https://scholar.google.com/citations?user=gTCy_9MAAAAJ&hl=en&oi=ao" target="_blank">Google Scholar</a> profile to see my publications.
 
