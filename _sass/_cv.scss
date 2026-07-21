@@ -17,6 +17,10 @@ table.table-cv {
   }
 }
 
+.cv-title-text {
+  color: var(--global-theme-color);
+}
+
 a.btncv {
   color: var(--global-text-color) !important;
   border: 1px solid var(--global-text-color) !important;
