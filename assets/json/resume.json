@@ -119,6 +119,13 @@
   ],
   "publications": [
     {
+      "name": "Guardrail Selection in Line Charts to Contextualize Persuasive Visualizations",
+      "publisher": "2026 EuroVis (Eurographics Conference on Visualization)",
+      "releaseDate": "2026-06-01",
+      "url": "https://doi.org/10.1111/cgf.70460",
+      "summary": "Preregistered mixed-design study on guardrail sampling strategies for persuasive time-series visualizations."
+    },
+    {
       "name": "ReVISit 2: A Full Experiment Life Cycle User Study Framework",
       "publisher": "IEEE TVCG (Proceedings of IEEE VIS)",
       "releaseDate": "2025-10-01",
