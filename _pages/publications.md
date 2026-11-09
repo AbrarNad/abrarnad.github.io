@@ -18,3 +18,27 @@ nav_order: 2
 {% bibliography %}
 
 </div>
+
+## Posters
+
+<h2 class="bibliography">2026</h2>
+
+<ol class="bibliography">
+	<li>
+		<div class="row">
+			<div class="col col-sm-2 abbr">
+				<a href="{{ '/assets/pdf/posters/Misleader Intervention Framework Poster.pdf' | relative_url }}" target="_blank" rel="noopener">
+					<img src="{{ '/assets/img/posters/intervention-framework.png' | relative_url }}" alt="Intervention Framework Against Visualization Recontextualization poster" class="preview z-depth-1 rounded img-fluid">
+				</a>
+			</div>
+			<div class="col-sm-8">
+				<div class="title"><a href="{{ '/assets/pdf/posters/Misleader Intervention Framework Poster.pdf' | relative_url }}" target="_blank" rel="noopener">Intervention Framework Against Visualization Recontextualization</a></div>
+				<div class="author">Khandaker Abrar Nadib, Marina Kogan, Alexander Lex</div>
+				<div class="periodical"><em>One-U Responsible AI Initiative Annual Symposium</em>, 2026</div>
+				<div class="links">
+					<a href="{{ '/assets/pdf/posters/Misleader Intervention Framework Poster.pdf' | relative_url }}" target="_blank" rel="noopener" class="btn btn-sm z-depth-0" role="button">PDF</a>
+				</div>
+			</div>
+		</div>
+	</li>
+</ol>
