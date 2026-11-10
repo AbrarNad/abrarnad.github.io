@@ -63,7 +63,9 @@
       {% endif %}
     {% endif %}
     {% if title_link %}
-      <div class="title"><a href="{{ title_link }}">{{ entry.title }}</a></div>
+      <div class="title">
+        <a href="{{ title_link }}">{{ entry.title }}</a>
+      </div>
     {% else %}
       <div class="title">{{ entry.title }}</div>
     {% endif %}

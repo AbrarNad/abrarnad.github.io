@@ -147,7 +147,12 @@
     },
     {
       "name": "Analysis",
-      "keywords": ["Mixed-effects models", "Regression", "Hypothesis testing", "Python (pandas, NumPy, SciPy, statsmodels, matplotlib, scikit-learn, PyTorch)"]
+      "keywords": [
+        "Mixed-effects models",
+        "Regression",
+        "Hypothesis testing",
+        "Python (pandas, NumPy, SciPy, statsmodels, matplotlib, scikit-learn, PyTorch)"
+      ]
     },
     {
       "name": "Visualization & Frontend",
@@ -228,10 +233,7 @@
     {
       "name": "Heuristic Analysis of bKash",
       "description": "Usability analysis of the bKash mobile financial app.",
-      "highlights": [
-        "Interviewed users; identified and ranked usability issues.",
-        "Recommendations to enhance accessibility and multimodality."
-      ],
+      "highlights": ["Interviewed users; identified and ranked usability issues.", "Recommendations to enhance accessibility and multimodality."],
       "url": "https://www.bkash.com/en"
     },
     {
