@@ -21,6 +21,8 @@ nav_order: 2
 
 ## Posters
 
+<div class="publications">
+
 <h2 class="bibliography">2026</h2>
 
 <ol class="bibliography">
@@ -42,3 +44,5 @@ nav_order: 2
 		</div>
 	</li>
 </ol>
+
+</div>
